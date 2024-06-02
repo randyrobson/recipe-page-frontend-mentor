@@ -24,8 +24,8 @@ O desafio consistia em construir uma página de receita básica de omelete. Os u
 
 ### Imagens
 
-<img src="design/desktop-design.jpg" height= 700px>
-<img src="design/mobile-design.jpg" height= 700px>
+<img src="design/desktop-design.jpg" height= 600px>
+<img src="design/mobile-design.jpg" height= 600px>
 
 
 ### Links
