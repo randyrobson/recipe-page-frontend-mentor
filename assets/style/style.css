@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-size: 1em;
+    color: #5f574e;
+}
+
+/*-----------------main-----------------*/
+
+body {
+    background-color: #e4ded8;
+}
+
+#imageomelete {
+    max-width: 100%;
+    
+}
+
+main {
+    background-color: white;
+}
+
+.containeromelete {
+    padding: 30px;
+}
+
+
+/*-----------ajustes gerais--------------*/
+
+
+h1 {
+    color: #302d2c;
+    font-family: "Young Serif", serif;
+    font-size: 2.5em;
+    font-weight: 500;
+    line-height: 0.9em;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: #854632;
+    padding-bottom: 25px;
+}
+
+li {
+    padding:0 0 10px 10px;
+}
+
+
+
+ul , ol {
+    list-style-position: inside;
+ }
+
+.separador {
+    border: solid 1px #302d2c27;
+    width: 100%;
+    margin: 25px 0 25px 0;
+}
+
+
+/*--------------Preparation Time---------------*/
+
+
+.containertime {
+    margin-top: 25px;
+    padding: 15px 20px 10px 20px;
+    background-color: #fff5fa;
+    border-radius: 10px;
+    
+}
+
+.containertime > h3 {
+    color: #7b284f;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.containertime > ul {
+    padding-top: 10px;
+}
+
+
+/*-------------- Igredients ----------------*/
+
+
+#tituloIngredient {
+    margin-top: 25px;
+}
+
+
+/*------------- Instructions ---------------*/
+
+.containerintructions > ol {
+    list-style: none;
+    counter-reset: name;
+}
+
+.containerintructions > ol > li::before {
+    content: counter(name) ".";
+    counter-increment: name;
+    font-weight: 700;
+    color: #854632;
+    padding-right: 20px;
+}
+
+/*--------------- Nutrition ----------------*/
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    text-indent: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 0 10px 0;
+}
+
+td:nth-child(2) {
+    color: #854632;
+    font-weight: 700;
+}
+
+tr {
+    border-bottom: solid 1px #302d2c27;
+}
+
+tr:nth-child(4) {
+    border-bottom: none;
+}
+
+
+/*--------------- media query ----------------*/
+
+
+@media screen and (min-width: 992px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        width: 600px;
+        margin: 50px 0 50px 0;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #imageomelete {
+        width: 90%;
+        align-self: center;
+        margin-top: 30px;
+        border-radius: 15px;
+    }
+}
