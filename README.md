@@ -2,7 +2,7 @@
 
 Essa é minha solução para o [Recipe Page challenge do Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Os desafios do Frontend Mentor ajudam a melhorar suas habilidades de codificação através da construção de projetos realistas.
 
-## Table of contents
+## Índice
 
 - [Visão Geral](#visão-geral)
   - [O desafio](#o-desafio)
